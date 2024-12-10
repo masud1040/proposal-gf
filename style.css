@@ -1,0 +1,56 @@
+body {
+    font-size: 15pt;
+}
+form{
+  background:white;
+  box-shadow: 10px 10px 5px rgba(0, 0,  0, 0.25);
+  margin-top:50px;
+  height: 300px;
+  width: 300px;
+  
+  margin-left:60px;
+  text-align: center;
+  border-radius: 15px;
+  
+}
+h2{
+  font-size:25px;
+  font-weight:0;
+  margin-top:50px;
+  padding-top:70px;
+  color: #1488cc;
+}
+h5{
+  font-size:15px;
+  padding: 0px;
+  font-family:bold;
+  
+}
+.buttons #yes{
+  height:40px;
+  width:40%;
+  background-color:#1d976c;
+  color: #fff;
+  cursor:pointer;
+  border-radius:10px;
+  font-size:18px;
+  
+}
+.buttons #no{
+  height:40px;
+  width: 40%;
+  background-color:red;
+  color: #fff;
+  cursor: pointer;
+  border-radius:10px;
+  font-size:18px;
+}
+#yes:hover{
+  background:#1488cc;
+  transition: 2s all ease;
+}
+
+h6{
+  font-size: 5px;
+  padding-top:60px;
+}
